@@ -1,0 +1,32 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0-rc2-3002702"
+    },
+    "System.Text.Encoding.CodePages": "4.0.1-rc2-24027" 
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "System.Diagnostics.Tools": "4.0.1-rc2-24027",
+        "System.Net.NameResolution": "4.0.0-rc2-24027",
+        "System.Net.Security": "4.0.0-rc2-24027",
+        "System.Private.ServiceModel": "4.1.0-rc2-24027",
+        "System.Runtime.Serialization.Primitives": "4.1.1-rc2-24027",
+        "System.Runtime.Serialization.Xml": "4.1.1-rc2-24027",
+        "System.Security.Principal.Windows": "4.0.0-rc2-24027",
+        "System.ServiceModel.Duplex": "4.0.1-rc2-24027",
+        "System.ServiceModel.Http": "4.1.0-rc2-24027",
+        "System.ServiceModel.NetTcp": "4.1.0-rc2-24027",
+        "System.ServiceModel.Primitives": "4.1.0-rc2-24027",
+        "System.ServiceModel.Security": "4.0.1-rc2-24027"
+      }
+    }
+  }
+}
