@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{927FDD21-3815-43C3-8EF6-D47AA09B4DBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D5EF17A-AF3C-440B-9D74-38904EC935A0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NETCoreMySQL", "src\NETCoreMySQL\NETCoreMySQL.xproj", "{DE5B5364-4955-42F5-95C0-BD0E2AECF10B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE5B5364-4955-42F5-95C0-BD0E2AECF10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5B5364-4955-42F5-95C0-BD0E2AECF10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5B5364-4955-42F5-95C0-BD0E2AECF10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5B5364-4955-42F5-95C0-BD0E2AECF10B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE5B5364-4955-42F5-95C0-BD0E2AECF10B} = {927FDD21-3815-43C3-8EF6-D47AA09B4DBA}
+	EndGlobalSection
+EndGlobal
