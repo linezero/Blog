@@ -5,13 +5,15 @@
   },
 
   "dependencies": {
-    "Dapper": "1.50.0-rc2b",
+    "Dapper": "1.50.2",
+    "Microsoft.Extensions.Configuration": "1.0.0",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
     "Microsoft.NETCore.App": {
       "type": "platform",
-      "version": "1.0.0-rc2-3002702"
+      "version": "1.0.0"
     },
-    "SapientGuardian.MySql.Data": "6.9.8-rc2-007",
-    "System.Text.Encoding.CodePages": "4.0.1-rc2-24027"
+    "MySql.Data.Core": "7.0.4-IR-191",
+    "System.Text.Encoding.CodePages": "4.0.1"
   },
 
   "frameworks": {
